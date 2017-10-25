@@ -72,22 +72,27 @@ bindsym $mod+z focus child
 
 # workspace names
 set $w1 1 
-set $w2 2 
-set $w3 3 
-set $w4 4 
-set $w5 5 
-set $w6 6
-set $w7 7
-set $w8 8
+set $w2 2 
+set $w3 3 
+set $w4 4
+set $w5 5
+set $w6 6 
+set $w7 7 
+set $w8 8 
 set $w9 9
 set $w10 10
 
 # worspace placement
 workspace "$w1" output HDMI1
 workspace "$w2" output HDMI1
-workspace "$w3" output VGA1
-workspace "$w4" output VGA1
-workspace "$w5" output VGA1
+workspace "$w3" output HDMI1
+workspace "$w4" output HDMI1
+workspace "$w5" output HDMI1
+workspace "$w6" output VGA1
+workspace "$w7" output VGA1
+workspace "$w8" output VGA1
+workspace "$w9" output VGA1
+workspace "$w10" output VGA1
 
 # switch to workspace
 bindsym $mod+1 workspace $w1
@@ -247,18 +252,18 @@ exec compton -b --config ~/.compton.conf
 exec feh --bg-fill --no-xinerama ~/wall.png || feh --bg-fill --no-xinerama ~/wall.jpg
 
 # Multiple monitors
-exec xrandr --output HDMI1 --primary --left-of VGA1
+exec xrandr --output HDMI1 --primary --pos 0x420 --output VGA1 --rotate right --pos 1920x0
 
 mouse_warping none
 
 # restore layout
 for_window [class="Firefox"] move to workspace $w1
-for_window [class="Spotify"] move to workspace $w2
-for_window [class="Slack"] move to workspace $w4
-#exec ~/.i3/restore-layout.sh
+for_window [class="Spotify"] move to workspace $w3
+for_window [class="Slack"] move to workspace $w7
 
-exec --no-startup-id spotify
-exec --no-startup-id firefox-beta
-exec --no-startup-id slack
-
-exec --no-startup-id i3-msg 'workspace number $w4; append_layout ~/.i3/layout/w4.json; exec urxvt -name update; workspace $w5; append_layout ~/.i3/layout/w5.json; exec urxvt -name weechat -e weechat; exec urxvt -name rtv -e rtv; workspace $w3; append_layout ~/.i3/layout/w3.json; exec urxvt -name vim; exec urxvt -name git; workspace $w1; gaps inner current set 0'
+exec --no-startup-id i3-msg 'workspace $w1; append_layout ~/.i3/layout/w1.json; gaps inner current set 0; exec firefox-beta;'
+exec --no-startup-id i3-msg 'workspace $w2; append_layout ~/.i3/layout/w2.json; exec urxvt -name term1; exec urxvt -name term2;'
+exec --no-startup-id i3-msg 'workspace $w3; exec spotify;'
+exec --no-startup-id i3-msg 'workspace $w6; append_layout ~/.i3/layout/w6.json; exec urxvt -name dev; gaps inner current set 0;'
+exec --no-startup-id i3-msg 'workspace $w7; append_layout ~/.i3/layout/w7.json; exec slack;'
+exec --no-startup-id i3-msg 'workspace $w8; append_layout ~/.i3/layout/w8.json; exec urxvt -name chat -e weechat;'
