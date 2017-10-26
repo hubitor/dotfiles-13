@@ -3,6 +3,10 @@
 URxvt.font: xft:xos4 Terminess Powerline:pixelsize=12
 !URxvt.letterSpace: -1
 
+! Cursor
+Xcursor.theme: cursor-theme
+Xcursor.size: 16
+
 ! Scrollbar
 URxvt.scrollBar: true
 URxvt.scrollBar_right: true
