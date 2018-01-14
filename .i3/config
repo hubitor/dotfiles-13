@@ -2,6 +2,7 @@
 #
 # User guide: http://i3wm.org/docs/userguide.html
 
+# Mod is the Windows key
 set $mod Mod4
 
 # Font for window titles. Will also be used by the bar unless a different font
@@ -214,12 +215,9 @@ exec xrandr --output DVI-I-1 --primary
 # Applets
 exec --no-startup-id nm-applet # network manager
 exec --no-startup-id twmnd # notifications
-#exec --no-startup-id dropbox
 exec --no-startup-id megasync
 exec --no-startup-id redshift-gtk
 exec --no-startup-id udiskie --smart-tray # usb storage automounter
-#exec --no-startup-id slack
-#exec --no-startup-id pasystray
 exec --no-startup-id uim-toolbar-gtk3-systray
 
 # Compositor

@@ -2,6 +2,10 @@
 URxvt.font: xft:Inconsolata for Powerline:Medium:pixelsize=14
 !URxvt.letterSpace: -1
 
+! Cursor
+Xcursor.theme: cursor-theme
+Xcursor.size: 16
+
 ! Scrollbar
 URxvt.scrollBar: true
 URxvt.scrollBar_right: true

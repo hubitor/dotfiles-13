@@ -2,6 +2,8 @@
 
 Can be installed by cloning this repo into your home and running the `install.sh` script. The script will back up your old dotfiles. Use at your own risk.
 
+The repo has different branches for the different computers I use. There's some stuff such as paths and monitor setup that you'll need to adapt to your environment.
+
 ## Screenshot
 
 ![screenshot](https://raw.githubusercontent.com/Remedan/dotfiles/master/screenshot.png)
@@ -21,8 +23,8 @@ Can be installed by cloning this repo into your home and running the `install.sh
 
 ## Acknowledgements
 
-* Colours are from the [gruvbox theme](https://github.com/morhetz/gruvbox)
-* `.compton.conf` and `.vimperator/colors` stolen from [twily.info](http://twily.info/)
+* Colours are from the [gruvbox](https://github.com/morhetz/gruvbox) and [Solarized](http://ethanschoonover.com/solarized) themes
+* `.compton.conf` stolen from [twily.info](http://twily.info/)
 * Lots of snippets copied or adapted from all kinds of sources. Too many to keep track of all of them.
 
 ## Zsh config

@@ -6,4 +6,14 @@
 [credential]
 	helper = cache
 [diff]
-	tool = vimdiff
+	tool = vimdiff3
+	renames = copies
+	mnemonicprefix = true
+[merge]
+	conflictstyle = diff3
+	tool = vimdiff3
+[advice]
+	statusHints = false
+	pushNonFastForward = false
+[branch]
+	autosetupmerge = true
