@@ -57,6 +57,7 @@ which is why my .zshrc is rather short.
 * [vim-airline-themes](https://github.com/vim-airline/vim-airline-themes)
 * [vim-airline](https://github.com/vim-airline/vim-airline)
 * [vim-easy-align](https://github.com/junegunn/vim-easy-align)
+* [vim-gitgutter](https://github.com/airblade/vim-gitgutter)
 * [vim-glsl](https://github.com/tikhomirov/vim-glsl)
 * [Vim-php-cs-fixer](https://github.com/stephpy/vim-php-cs-fixer)
 * [YouCompleteMe](https://github.com/Valloric/YouCompleteMe)
