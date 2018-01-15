@@ -26,7 +26,6 @@ bindsym $mod+h focus left
 bindsym $mod+j focus down
 bindsym $mod+k focus up
 bindsym $mod+l focus right
-
 # alternatively, you can use the cursor keys:
 bindsym $mod+Left  focus left
 bindsym $mod+Down  focus down
@@ -210,10 +209,10 @@ bindsym $mod+Shift+y gaps outer current minus 6
 bindsym $mod+Shift+u gaps outer current plus 6
 
 # class                 border  backgr. text    indicator
-client.focused          #002b36 #586e75 #fdf6e3 #268bd2
-client.focused_inactive #002b36 #073642 #839496 #073642
-client.unfocused        #002b36 #073642 #839496 #073642
-client.urgent           #002b36 #dc322f #fdf6e3 #002b36
+client.focused          #002b36 #c33027 #98d1ce #dc322f
+client.focused_inactive #002b36 #195465 #839496 #073642
+client.unfocused        #002b36 #195465 #839496 #073642
+client.urgent           #002b36 #dc322f #98d1ce #002b36
 
 # Start i3bar to display a workspace bar (plus the system information i3status
 # finds out, if available)
@@ -221,16 +220,16 @@ bar {
     status_command i3blocks -c ~/.i3/i3blocks.conf
     position top
     tray_output primary
-    font pango:Anonymous Pro, FontAwesome 10
+    font pango:Anonymice Powerline, FontAwesome 10
 
     colors {
-        background #002b36
-        statusline #839496
-        separator  #586e75
+        background #0a0f14
+        statusline #98d1ce
+        separator  #87c0bd
                             #border backgr. text
-        focused_workspace   #b58900 #b58900 #002b36
-        active_workspace    #586e75 #586e75 #002b36
-        inactive_workspace  #073642 #002b36 #839496
+        focused_workspace   #26a98b #26a98b #0a0f14
+        active_workspace    #245361 #245461 #98d1ce
+        inactive_workspace  #081f2d #081f2d #98d1ce
         urgent_workspace    #dc322f #dc322f #fdf6e3
     }
 }

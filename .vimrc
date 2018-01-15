@@ -161,7 +161,7 @@ nnoremap <leader>r :w !sudo tee % > /dev/null<CR>
 "        Colours and GUI    "
 """""""""""""""""""""""""""""
 set background=dark     " Use dark background
-colorscheme solarized   " Use nicer colourscheme
+colorscheme gotham   " Use nicer colourscheme
 
 if has("gui_running")
     set guioptions+=TlrbRLe " Bug workaround
