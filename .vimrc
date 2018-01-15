@@ -49,8 +49,16 @@ set colorcolumn=80,120  " Highlight the 80th column
 set listchars=tab:>-,trail:· " Show tabs and trailing space
 set list            " Enable the above settings
 set laststatus=2    " Wider status line, needed for powerline
-
+set foldmethod=syntax " Create fold points based on syntax
 syntax on           " Enable syntax highlighting
+autocmd BufWinEnter * normal zR " Open all folds by default
+
+"""""""""""""""""""""""""""""
+"    Language-specific      "
+"""""""""""""""""""""""""""""
+let php_sql_query=1 " Highlight sql inside php strings
+let php_htmlInStrings=1 " Highlight html inside php strings
+let php_folding = 1 " Enable syntax-based folding
 
 """""""""""""""""""""""""""""
 "        Plugins            "
