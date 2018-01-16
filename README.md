@@ -21,12 +21,6 @@ The repo has different branches for the different computers I use. There's some 
 * redshift
 * WeeChat
 
-## Acknowledgements
-
-* Colours are from the [gruvbox](https://github.com/morhetz/gruvbox) and [Solarized](http://ethanschoonover.com/solarized) themes
-* `.compton.conf` stolen from [twily.info](http://twily.info/)
-* Lots of snippets copied or adapted from all kinds of sources. Too many to keep track of all of them.
-
 ## Zsh config
 
 I usually have the [grml zsh config](https://grml.org/zsh/) installed in /etc,
