@@ -167,7 +167,7 @@ bindsym XF86AudioStop exec ~/.i3/player-control.sh stop   && pkill -SIGRTMIN+3 i
 bindsym $mod+i exec firefox-beta
 
 # Borders
-for_window [class="^.*"] border pixel 2
+new_window pixel 2
 
 # Workspace assignment
 assign [class="Steam"] 5
