@@ -209,10 +209,10 @@ bindsym $mod+Shift+y gaps outer current minus 6
 bindsym $mod+Shift+u gaps outer current plus 6
 
 # class                 border  backgr. text    indicator
-client.focused          #002b36 #c33027 #98d1ce #dc322f
-client.focused_inactive #002b36 #195465 #839496 #073642
-client.unfocused        #002b36 #195465 #839496 #073642
-client.urgent           #002b36 #dc322f #98d1ce #002b36
+client.focused          #c33027 #c33027 #98d1ce #d26939
+client.focused_inactive #1c6b9c #1c6b9c #98d1ce #1c6b9c
+client.unfocused        #195465 #195465 #98d1ce #195465
+client.urgent           #edb54b #edb54b #98d1ce #edb54b
 
 # Start i3bar to display a workspace bar (plus the system information i3status
 # finds out, if available)
@@ -228,9 +228,9 @@ bar {
         separator  #87c0bd
                             #border backgr. text
         focused_workspace   #26a98b #26a98b #0a0f14
-        active_workspace    #245361 #245461 #98d1ce
-        inactive_workspace  #081f2d #081f2d #98d1ce
-        urgent_workspace    #dc322f #dc322f #fdf6e3
+        active_workspace    #1c6b9c #1c6b9c #98d1ce
+        inactive_workspace  #195465 #195465 #98d1ce
+        urgent_workspace    #edb54b #edb54b #0a0f14
     }
 }
 
@@ -258,7 +258,7 @@ exec feh --bg-fill --no-xinerama ~/wall.png || feh --bg-fill --no-xinerama ~/wal
 # Multiple monitors
 exec xrandr --output DVI-I-1 --auto --pos 0x420 --primary --output DVI-D-0 --auto --pos 1920x0 --rotate right --output HDMI-0 --auto --pos 3000x420
 
-mouse_warping none
+#mouse_warping none
 
 # restore layout
 for_window [class="Firefox"] move to workspace $w1

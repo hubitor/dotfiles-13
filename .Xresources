@@ -10,11 +10,11 @@ Xcursor.size: 16
 URxvt.scrollBar: true
 URxvt.scrollBar_right: true
 URxvt.scrollstyle: plain
-URxvt.scrollColor: #2aa198
+URxvt.scrollColor: #093748
 
 ! Transparency
 !URxvt.transparent: true
-!URxvt.shading: 9
+!URxvt.shading: 30
 
 ! Clickable links
 URxvt.perl-ext-common: default,matcher
@@ -29,7 +29,7 @@ rofi.color-active: #002b37, #008ed4, #002b37, #003642, #008ed4
 rofi.color-urgent: #002b37, #da4281, #002b37, #003642, #da4281
 
 ! Colours
-URxvt.depth: 24
+URxvt.depth: 32
 
 *.foreground:   #98d1ce
 *.background:   #0a0f14
@@ -42,7 +42,7 @@ URxvt.depth: 24
 *.color9:       #d26939
 
 *.color2:       #26a98b
-*.color10:      #081f2d
+*.color10:      #1c6b9c
 
 *.color3:       #edb54b
 *.color11:      #245361
