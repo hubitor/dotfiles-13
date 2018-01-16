@@ -45,6 +45,8 @@ modules-right = filesystem xbacklight volume xkeyboard cpu memory wlan eth batte
 tray-position = right
 tray-padding = 2
 
+enable-ipc = true
+
 scroll-up = i3wm-wsnext
 scroll-down = i3wm-wsprev
 
