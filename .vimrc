@@ -51,7 +51,8 @@ set list            " Enable the above settings
 set laststatus=2    " Wider status line, needed for powerline
 set foldmethod=syntax " Create fold points based on syntax
 syntax on           " Enable syntax highlighting
-autocmd BufWinEnter * normal zR " Open all folds by default
+" Open all folds by default
+autocmd BufWinEnter * normal zR
 
 """""""""""""""""""""""""""""
 "    Language-specific      "
