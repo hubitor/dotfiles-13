@@ -189,26 +189,28 @@ client.urgent           #002b36 #dc322f #fdf6e3 #002b36
 
 # Start i3bar to display a workspace bar (plus the system information i3status
 # finds out, if available)
-bar {
-    status_command i3blocks -c ~/.i3/i3blocks.conf
-    position top
-    tray_output primary
-    font pango:Inconsolata, FontAwesome 9
-
-    colors {
-        background #002b36
-        statusline #839496
-        separator  #586e75
-                            #border backgr. text
-        focused_workspace   #b58900 #b58900 #002b36
-        active_workspace    #586e75 #586e75 #002b36
-        inactive_workspace  #073642 #002b36 #839496
-        urgent_workspace    #dc322f #dc322f #fdf6e3
-    }
-}
+# bar {
+#     status_command i3blocks -c ~/.i3/i3blocks.conf
+#     position top
+#     tray_output primary
+#     font pango:Inconsolata, FontAwesome 9
+#
+#     colors {
+#         background #002b36
+#         statusline #839496
+#         separator  #586e75
+#                             #border backgr. text
+#         focused_workspace   #b58900 #b58900 #002b36
+#         active_workspace    #586e75 #586e75 #002b36
+#         inactive_workspace  #073642 #002b36 #839496
+#         urgent_workspace    #dc322f #dc322f #fdf6e3
+#     }
+# }
 
 # Keyboard layouts, alt+shift to switch
 exec setxkbmap -layout 'us,cz(qwerty)' -option 'grp:alt_shift_toggle'
+
+exec --no-startup-id polybar b0
 
 exec xrandr --output DVI-I-1 --primary
 
