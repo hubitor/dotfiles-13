@@ -15,7 +15,7 @@ The repo has different branches for the different computers I use. There's some 
 * Neovim
 * Ranger
 * Rofi
-* twmn
+* dunst
 * mpd + ncmpcpp
 * sxiv, mpv, zathura
 * redshift
