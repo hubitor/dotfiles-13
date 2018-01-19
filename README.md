@@ -10,7 +10,7 @@ The repo has different branches for the different computers I use. There's some 
 
 ## Key Components and Software
 
-* [i3-gaps](https://github.com/Airblader/i3) + i3blocks + Compton
+* [i3-gaps](https://github.com/Airblader/i3) + Polybar + Compton
 * rxvt + Z shell
 * Neovim
 * Ranger
