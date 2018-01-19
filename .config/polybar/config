@@ -201,7 +201,7 @@ format-volume = <label-volume> <bar-volume>
 label-volume = 
 label-volume-foreground = ${root.foreground}
 
-format-muted-prefix = " "
+format-muted-prefix = " "
 format-muted-foreground = ${root.foreground}
 label-muted = sound muted
 
