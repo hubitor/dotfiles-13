@@ -17,3 +17,10 @@
 	pushNonFastForward = false
 [branch]
 	autosetupmerge = true
+[alias]
+	hist = log --graph --oneline --all
+	co = checkout
+	ci = commit
+	st = status
+	br = branch
+	cp = cherry-pick
