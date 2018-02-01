@@ -74,11 +74,12 @@ let g:airline#extensions#tabline#enabled = 1
 let nice_powerline = index(['helios', 'hermes', 'hedgehog'], hostname()) >= 0
 if nice_powerline
     let g:airline_powerline_fonts = 1
+else
+    " Disable fancy arrows in NERDTree
+    let g:NERDTreeDirArrowExpandable = '+'
+    let g:NERDTreeDirArrowCollapsible = '-'
 endif
 
-" Disable fancy arrows in NERDTree
-let g:NERDTreeDirArrowExpandable = '+'
-let g:NERDTreeDirArrowCollapsible = '-'
 " Show hidden files
 let g:NERDTreeShowHidden = 1
 
