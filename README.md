@@ -11,7 +11,7 @@ The repo has different branches for the different computers I use. There's some 
 ## Key Components and Software
 
 * [i3-gaps](https://github.com/Airblader/i3) + Polybar + Compton
-* rxvt + Z shell
+* termite + fish
 * Neovim
 * Ranger
 * Rofi
@@ -20,11 +20,6 @@ The repo has different branches for the different computers I use. There's some 
 * sxiv, mpv, zathura
 * redshift
 * WeeChat
-
-## Zsh config
-
-I usually have the [grml zsh config](https://grml.org/zsh/) installed in /etc,
-which is why my .zshrc is rather short.
 
 ## Vim plugins included
 
