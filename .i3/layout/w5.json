@@ -13,7 +13,6 @@
     "percent": 1,
     "swallows": [
        {
-          "class": "^URxvt$",
           "instance": "^dev$",
           "transient_for": "^$"
        }

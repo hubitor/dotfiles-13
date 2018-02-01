@@ -13,7 +13,6 @@
     "percent": 0.5,
     "swallows": [
        {
-          "class": "^URxvt$",
           "instance": "^term1$",
           "transient_for": "^$"
        }
@@ -35,7 +34,6 @@
     "percent": 0.5,
     "swallows": [
        {
-          "class": "^URxvt$",
           "instance": "^term2$",
           "transient_for": "^$"
        }
