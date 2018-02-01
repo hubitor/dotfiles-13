@@ -13,7 +13,7 @@ font pango:Inconsolata 9
 floating_modifier $mod
 
 # start a terminal
-bindsym $mod+Return exec urxvt
+bindsym $mod+Return exec termite
 
 # kill focused window
 bindsym $mod+Shift+q kill
@@ -211,8 +211,7 @@ client.urgent           #002b36 #dc322f #fdf6e3 #002b36
 exec setxkbmap -layout 'us,cz(qwerty)' -option 'grp:alt_shift_toggle'
 
 exec --no-startup-id polybar b0
-
-exec xrandr --output DVI-I-1 --primary
+exec --no-startup-id unclutter
 
 # Applets
 exec --no-startup-id nm-applet # network manager
@@ -226,5 +225,3 @@ exec compton -b --config ~/.compton.conf
 
 # Wallpaper
 exec feh --bg-fill --no-xinerama ~/wall.png || feh --bg-fill --no-xinerama ~/wall.jpg || feh --bg-tile ~/wall-tile.png || feh --bg-tile ~/wall-tile.jpg
-
-mouse_warping none
