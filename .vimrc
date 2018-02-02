@@ -171,7 +171,11 @@ nnoremap <leader>r :w !sudo tee % > /dev/null<CR>
 "        Colours and GUI    "
 """""""""""""""""""""""""""""
 set background=dark     " Use dark background
-colorscheme gotham   " Use nicer colourscheme
+colorscheme gotham      " Use nicer colourscheme
+
+if (has("nvim"))
+    set termguicolors
+endif
 
 if has("gui_running")
     set guioptions+=TlrbRLe " Bug workaround
