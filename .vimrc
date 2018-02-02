@@ -173,6 +173,10 @@ nnoremap <leader>r :w !sudo tee % > /dev/null<CR>
 set background=dark     " Use dark background
 colorscheme gruvbox     " Use nicer colourscheme
 
+if (has("nvim"))
+    set termguicolors
+endif
+
 if has("gui_running")
     set guioptions+=TlrbRLe " Bug workaround
     set guioptions-=TlrbRLe " Hide the toolbar and scrollbars, use text tabs
