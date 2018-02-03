@@ -26,7 +26,7 @@ alert = #bd2c40
 [bar/b0]
 width = 100%
 height = 24
-fixed-center = false
+fixed-center = true
 
 background = ${colors.background}
 foreground = ${colors.foreground}
