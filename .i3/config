@@ -241,7 +241,7 @@ exec --no-startup-id polybar b0
 exec --no-startup-id polybar b1
 exec --no-startup-id polybar b2
 
-exec --no-startup-id unclutter -grab
+exec --no-startup-id unclutter
 
 # Applets
 exec --no-startup-id nm-applet # network manager
