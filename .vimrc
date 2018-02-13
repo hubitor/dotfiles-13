@@ -117,6 +117,9 @@ if executable('ag')
   let g:ackprg = 'ag --vimgrep'
 endif
 
+" Colorize hex colors by default
+let g:colorizer_auto_filetype='css,html'
+
 """""""""""""""""""""""""""""
 "        Key mapping        "
 """""""""""""""""""""""""""""
