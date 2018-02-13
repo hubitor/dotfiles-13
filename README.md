@@ -35,6 +35,7 @@ The repo has different branches for the different computers I use. There's some 
 * [NERD Tree](https://github.com/scrooloose/nerdtree)
 * [pathogen.vim](https://github.com/tpope/vim-pathogen)
 * [phpcomplete.vim](https://github.com/shawncplus/phpcomplete.vim)
+* [Previm](https://github.com/kannokanno/previm)
 * [SnipMate](https://github.com/garbas/vim-snipmate)
 * [surround.vim](https://github.com/tpope/vim-surround)
 * [syntastic](https://github.com/vim-syntastic/syntastic)
