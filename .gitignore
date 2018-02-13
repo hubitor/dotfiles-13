@@ -1,5 +1,6 @@
 .config/mpd/
 !.config/mpd/mpd.conf
+.config/fish/fishd.*
 .config/ranger/__pycache__/
 .config/ranger/bookmarks
 .config/ranger/history
@@ -9,6 +10,4 @@
 .vim/spell
 .vim/swap/
 .vim/undo/
-.vimperator/info/default/
-!.vimperator/info/default/quickmarks
 .weechat/
