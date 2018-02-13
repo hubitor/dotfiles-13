@@ -11,17 +11,17 @@ set -x LESS_TERMCAP_us \e'[01;32m'
 
 set fish_greeting
 
-alias gs='git status'
-alias ga='git add'
-alias gb='git branch'
-alias gc='git commit'
-alias gd='git diff'
-alias go='git checkout'
-alias gh='git hist'
-alias gp='git pull'
-alias gu='git push'
-alias gm='git merge'
-alias gl='git log'
+abbr -a gs git status
+abbr -a ga git add
+abbr -a gb git branch
+abbr -a gc git commit
+abbr -a gd git diff
+abbr -a go git checkout
+abbr -a gh git hist
+abbr -a gp git pull
+abbr -a gu git push
+abbr -a gm git merge
+abbr -a gl git log
 
 function sudo!!
     eval sudo $history[1]
