@@ -103,3 +103,6 @@
 [submodule ".vim/bundle/previm"]
 	path = .vim/bundle/previm
 	url = https://github.com/kannokanno/previm.git
+[submodule ".vim/bundle/vim-fish"]
+	path = .vim/bundle/vim-fish
+	url = https://github.com/dag/vim-fish.git
