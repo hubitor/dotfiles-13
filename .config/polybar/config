@@ -43,7 +43,7 @@ font-0 = xos4 Terminus:pixelsize=9;2
 font-1 = FontAwesome:pixelsize=9;2
 font-2 = Source\ Han\ Sans:pixelsize=9;2
 
-modules-left = i3 spotify mpd volume
+modules-left = i3 player-mpris-tail mpd volume
 modules-center = xwindow
 modules-right = filesystem xkeyboard cpu memory xbacklight battery date powermenu
 
@@ -154,6 +154,14 @@ bar-fill-foreground = #9f78e1
 bar-empty = ─
 bar-empty-font = 2
 bar-empty-foreground = ${colors.foreground-alt}
+
+[module/player-mpris-tail]
+type = custom/script
+exec = ~/.config/polybar/player-mpris-tail.py
+tail = true
+click-left = playerctl previous
+click-right = playerctl next
+click-middle = playerctl play-pause
 
 [module/cpu]
 type = internal/cpu
