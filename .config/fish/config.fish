@@ -1,5 +1,5 @@
 set -x EDITOR nvim
-set -x PATH $PATH ~/scripts
+set -x PATH $PATH ~/scripts (ruby -e 'print Gem.user_dir')/bin
 
 set -x LESS_TERMCAP_mb \e'[01;31m'
 set -x LESS_TERMCAP_md \e'[01;31m'
