@@ -2,7 +2,7 @@
 	email = vojtech.balak@internet-handel.cz
 	name = Vojtech Balak
 [push]
-	default = simple
+	default = current
 [credential]
 	helper = cache
 [diff]
