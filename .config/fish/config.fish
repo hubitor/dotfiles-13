@@ -11,6 +11,8 @@ set -x LESS_TERMCAP_us \e'[01;32m'
 
 set fish_greeting
 
+alias sxiv "sxiv -a"
+
 abbr -a gs git status
 abbr -a ga git add
 abbr -a gb git branch
