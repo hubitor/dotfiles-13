@@ -17,9 +17,9 @@ color5 = ${xrdb:color5}
 color6 = ${xrdb:color6}
 color7 = ${xrdb:color7}
 
-background = ${colors.color0}
+background = ${xrdb:background}
 foreground-alt = #555
-foreground = ${colors.color7}
+foreground = ${xrdb:foreground}
 primary = ${colors.color3}
 alert = #bd2c40
 
@@ -150,6 +150,23 @@ exec = ~/.config/polybar/spotify.sh
 label-maxlen = 40
 label-song-ellipsis = true
 
+[module/xbacklight]
+type = internal/xbacklight
+
+format = <label> <bar>
+label = 
+
+bar-width = 10
+bar-indicator = |
+bar-indicator-foreground = #ff
+bar-indicator-font = 2
+bar-fill = ─
+bar-fill-font = 2
+bar-fill-foreground = #9f78e1
+bar-empty = ─
+bar-empty-font = 2
+bar-empty-foreground = ${colors.foreground-alt}
+
 [module/player-mpris-tail]
 type = custom/script
 exec = ~/.config/polybar/player-mpris-tail.py
@@ -226,6 +243,34 @@ bar-volume-indicator = |
 bar-volume-fill = ─
 bar-volume-empty = ─
 bar-volume-empty-foreground = ${colors.foreground-alt}
+
+[module/battery]
+type = internal/battery
+battery = BAT1
+adapter = ACAD
+full-at = 98
+
+format-charging = <animation-charging> <label-charging>
+
+format-discharging = <ramp-capacity> <label-discharging>
+
+format-full-prefix = " "
+format-full-prefix-foreground = ${colors.color6}
+
+ramp-capacity-0 = 
+ramp-capacity-1 = 
+ramp-capacity-2 = 
+ramp-capacity-3 = 
+ramp-capacity-4 = 
+ramp-capacity-foreground = ${colors.color6}
+
+animation-charging-0 = 
+animation-charging-1 = 
+animation-charging-2 = 
+animation-charging-3 = 
+animation-charging-4 = 
+animation-charging-foreground = ${colors.color6}
+animation-charging-framerate = 750
 
 [module/powermenu]
 type = custom/menu
