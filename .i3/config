@@ -219,26 +219,6 @@ client.focused_inactive #1c6b9c #1c6b9c #98d1ce #1c6b9c
 client.unfocused        #195465 #195465 #98d1ce #195465
 client.urgent           #edb54b #edb54b #98d1ce #edb54b
 
-# Start i3bar to display a workspace bar (plus the system information i3status
-# finds out, if available)
-# bar {
-#     status_command i3blocks -c ~/.i3/i3blocks.conf
-#     position top
-#     tray_output primary
-#     font pango:Anonymice Powerline, FontAwesome 10
-#
-#     colors {
-#         background #0a0f14
-#         statusline #98d1ce
-#         separator  #87c0bd
-#                             #border backgr. text
-#         focused_workspace   #26a98b #26a98b #0a0f14
-#         active_workspace    #1c6b9c #1c6b9c #98d1ce
-#         inactive_workspace  #195465 #195465 #98d1ce
-#         urgent_workspace    #edb54b #edb54b #0a0f14
-#     }
-# }
-
 # Keyboard layouts, alt+shift to switch
 exec setxkbmap -layout 'us,cz(qwerty)' -option 'grp:alt_shift_toggle'
 
