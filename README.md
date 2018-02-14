@@ -51,6 +51,7 @@ The repo has different branches for the different computers I use. There's some 
 * [vim-gitgutter](https://github.com/airblade/vim-gitgutter)
 * [vim-glsl](https://github.com/tikhomirov/vim-glsl)
 * [Vim-php-cs-fixer](https://github.com/stephpy/vim-php-cs-fixer)
+* [vimtex](https://github.com/lervag/vimtex)
 * [YouCompleteMe](https://github.com/Valloric/YouCompleteMe)
 
 ## Vim colourschemes

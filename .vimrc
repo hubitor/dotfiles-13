@@ -120,10 +120,11 @@ endif
 " Colorize hex colors by default
 let g:colorizer_auto_filetype='css,html'
 
-" Open markdown preview in firefox
+" Open markdown preview in Firefox
 let g:previm_open_cmd = 'firefox'
 
-let g:previm_open_cmd = 'firefox'
+" Open latex preview in Zathura
+let g:vimtex_view_method = 'zathura'
 
 """""""""""""""""""""""""""""
 "        Key mapping        "
