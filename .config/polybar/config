@@ -132,12 +132,6 @@ icon-next = 
 label-song-maxlen = 40
 label-song-ellipsis = true
 
-[module/spotify]
-type = custom/script
-exec = ~/.config/polybar/spotify.sh
-label-maxlen = 40
-label-song-ellipsis = true
-
 [module/xbacklight]
 type = internal/xbacklight
 
