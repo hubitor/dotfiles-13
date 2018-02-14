@@ -2,7 +2,7 @@
 	email = balakvojtech@gmail.com
 	name = Vojtech Balak
 [push]
-	default = simple
+	default = current
 [credential]
 	helper = cache
 [diff]
