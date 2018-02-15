@@ -65,6 +65,7 @@ The repo has different branches for the different computers I use. There's some 
 * [Molokai](https://github.com/tomasr/molokai)
 * [Mustang](http://hcalves.deviantart.com/art/Mustang-Vim-Colorscheme-98974484)*
 * [Solarized](https://github.com/altercation/vim-colors-solarized)*
+* [Solarized 8](https://github.com/lifepillar/vim-solarized8)
 * [wombat](http://www.vim.org/scripts/script.php?script_id=2140)*
 * [xoria256](http://www.vim.org/scripts/script.php?script_id=2140)*
 
