@@ -70,6 +70,8 @@ call pathogen#infect()
 
 " Enable nice tabline
 let g:airline#extensions#tabline#enabled = 1
+" Use dark solarized variant for airline
+let g:airline_solarized_bg='dark'
 " Enable nice font only on my machines
 let nice_powerline = index(['helios', 'hermes', 'hedgehog'], hostname()) >= 0
 if nice_powerline
