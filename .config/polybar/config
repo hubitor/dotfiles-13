@@ -40,9 +40,9 @@ padding-right = 2
 
 module-margin = 1
 
-font-0 = Anonymice\ Powerline:pixelsize=12
-font-1 = FontAwesome:pixelsize=10
-font-2 = Source\ Han\ Sans:pixelsize=10
+font-0 = DejaVu Sans:pixelsize=11;2
+font-1 = FontAwesome:pixelsize=10;1
+font-2 = Source\ Han\ Sans:pixelsize=10;2
 
 modules-left = i3 player-mpris-tail mpd volume
 modules-center = xwindow
