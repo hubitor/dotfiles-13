@@ -109,3 +109,6 @@
 [submodule ".vim/bundle/vimtex"]
 	path = .vim/bundle/vimtex
 	url = https://github.com/lervag/vimtex.git
+[submodule ".vim/bundle/vim-solarized8"]
+	path = .vim/bundle/vim-solarized8
+	url = https://github.com/lifepillar/vim-solarized8.git
