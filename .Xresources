@@ -3,7 +3,7 @@ URxvt.font: xft:Iosevka Term:pixelsize=16
 !URxvt.letterSpace: -1
 
 ! Cursor
-Xcursor.theme: cursor-theme
+Xcursor.theme: Numix-Light
 Xcursor.size: 16
 
 ! Scrollbar
