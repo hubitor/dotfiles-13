@@ -189,8 +189,8 @@ bindsym XF86MonBrightnessUp exec xbacklight -inc 5 && pkill -SIGRTMIN+2 i3blocks
 bindsym XF86MonBrightnessDown exec xbacklight -dec 5 && pkill -SIGRTMIN+2 i3blocks
 
 # Printscreen saves screenshot (with shift only focused window)
-bindsym --release Print       exec --no-startup-id scrot
-bindsym --release Shift+Print exec --no-startup-id scrot -u
+bindsym --release Print       exec scrot
+bindsym --release Shift+Print exec scrot -u
 
 # Media keys
 bindsym XF86AudioPlay exec ~/.i3/player-control.sh toggle && pkill -SIGRTMIN+3 i3blocks
@@ -241,7 +241,7 @@ exec --no-startup-id uim-toolbar-gtk3-systray
 exec --no-startup-id system-config-printer-applet
 
 # Compositor
-exec --no-startup-id compton -b --config ~/.compton.conf
+exec compton -b --config ~/.compton.conf
 
 # Wallpaper
 exec feh --bg-fill --no-xinerama ~/wall.png || feh --bg-fill --no-xinerama ~/wall.jpg || feh --bg-tile ~/wall-tile.png || feh --bg-tile ~/wall-tile.jpg
@@ -254,9 +254,9 @@ for_window [class="Firefox"] move to workspace $w1
 for_window [class="Spotify"] move to workspace $w2
 for_window [class="Slack"] move to workspace $w8
 
-exec --no-startup-id i3-msg 'workspace $w1; append_layout ~/.i3/layout/w1.json; gaps inner current set 0; exec firefox-beta;'
-exec --no-startup-id i3-msg 'workspace $w2; exec spotify;'
-exec --no-startup-id i3-msg 'workspace $w5; append_layout ~/.i3/layout/w5.json; exec termite --name dev; gaps inner current set 0;'
-exec --no-startup-id i3-msg 'workspace $w7; append_layout ~/.i3/layout/w7.json; exec termite --name term1; exec termite --name term2;'
-exec --no-startup-id i3-msg 'workspace $w8; append_layout ~/.i3/layout/w8.json; exec slack;'
-exec --no-startup-id i3-msg 'workspace $w9; append_layout ~/.i3/layout/w9.json; exec termite --name chat -e weechat;'
+exec i3-msg 'workspace $w1; append_layout ~/.i3/layout/w1.json; gaps inner current set 0; exec firefox-beta;'
+exec i3-msg 'workspace $w2; exec spotify;'
+exec i3-msg 'workspace $w5; append_layout ~/.i3/layout/w5.json; exec termite --name dev; gaps inner current set 0;'
+exec i3-msg 'workspace $w7; append_layout ~/.i3/layout/w7.json; exec termite --name term1; exec termite --name term2;'
+exec i3-msg 'workspace $w8; append_layout ~/.i3/layout/w8.json; exec slack;'
+exec i3-msg 'workspace $w9; append_layout ~/.i3/layout/w9.json; exec termite --name chat -e weechat;'
