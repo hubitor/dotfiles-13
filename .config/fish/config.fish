@@ -9,6 +9,11 @@ set -x LESS_TERMCAP_so \e'[01;44;33m'
 set -x LESS_TERMCAP_ue \e'[0m'
 set -x LESS_TERMCAP_us \e'[01;32m'
 
+set -x GTK_IM_MODULE "ibus"
+set -x XMODIFIERS "@im=ibus"
+set -x QT_IM_MODULE "ibus"
+ibus-daemon -drx
+
 set fish_greeting
 
 alias sxiv "sxiv -a"
