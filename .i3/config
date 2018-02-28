@@ -229,7 +229,7 @@ exec --no-startup-id polybar b0
 exec --no-startup-id polybar b1
 exec --no-startup-id polybar b2
 
-exec --no-startup-id unclutter
+#exec --no-startup-id unclutter
 
 # Applets
 exec --no-startup-id nm-applet # network manager
@@ -244,8 +244,7 @@ exec compton -b --config ~/.compton.conf
 # Wallpaper
 exec feh --bg-fill --no-xinerama ~/wall.png || feh --bg-fill --no-xinerama ~/wall.jpg || feh --bg-tile ~/wall-tile.png || feh --bg-tile ~/wall-tile.jpg
 
-# Multiple monitors
-exec xrandr --output DVI-I-1 --auto --pos 0x420 --primary --output DVI-D-0 --auto --pos 1920x0 --rotate right --output HDMI-0 --auto --pos 3000x420
+exec systemctl --user start mpdas
 
 # restore layout
 for_window [class="Firefox"] move to workspace $w1
