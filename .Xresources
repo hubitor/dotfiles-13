@@ -3,7 +3,7 @@ URxvt.font: xft:Inconsolata for Powerline:Medium:pixelsize=14
 !URxvt.letterSpace: -1
 
 ! Cursor
-Xcursor.theme: cursor-theme
+Xcursor.theme: Adwaita
 Xcursor.size: 16
 
 ! Scrollbar
@@ -27,7 +27,6 @@ rofi.color-urgent: #002b37, #da4281, #002b37, #003642, #da4281
 ! Colours
 URxvt.depth: 24
 
-! Common
 #define S_yellow        #b58900
 #define S_orange        #cb4b16
 #define S_red           #dc322f
@@ -37,7 +36,6 @@ URxvt.depth: 24
 #define S_cyan          #2aa198
 #define S_green         #859900
 
-! Dark
 #define S_base03        #002b36
 #define S_base02        #073642
 #define S_base01        #586e75
@@ -49,7 +47,7 @@ URxvt.depth: 24
 
 *background:              S_base03
 *foreground:              S_base0
-*fading:                  10
+*fading:                  40
 *fadeColor:               S_base03
 *cursorColor:             S_base1
 *pointerColorBackground:  S_base01
