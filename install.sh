@@ -6,7 +6,7 @@ mkdir -p ~/dotfiles_old/.config
 
 cd ~/dotfiles
 
-BLACKLIST="-I install.sh -I .config -I .git -I .gitignore -I .gitmodules -I README.md -I screenshot.png"
+BLACKLIST="-I install.sh -I .config -I .git -I .gitignore -I .gitmodules -I README.md -I screenshot.png -I st"
 
 for file in `ls -A $BLACKLIST`
 do
