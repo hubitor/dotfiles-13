@@ -21,6 +21,10 @@ The repo has different branches for the different computers I use. There's some 
 * redshift
 * WeeChat
 
+### st
+
+I use st with a couple of patches. It can be found [here](https://github.com/Remedan/st/tree/solarized).
+
 ## Vim plugins included
 
 * [ack.vim](https://github.com/mileszs/ack.vim)
